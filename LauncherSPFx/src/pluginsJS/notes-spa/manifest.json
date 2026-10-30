@@ -1,0 +1,13 @@
+{
+  "id": "notes-spa",
+  "title": "Notes SPA",
+  "version": "1.0.0",
+  "description": "Markdown notes using a CDN library, runs in a sandboxed iframe",
+  "runtime": "js",
+  "hostMode": "iframe",
+  "iframeHeight": 520,
+  "url": "https://static.example.com/launcher/pluginsJS/notes-spa/index.html",
+  "requiredScopes": [],
+  "minimumRoles": ["User"],
+  "dependencies": []
+}
