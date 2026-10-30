@@ -1,0 +1,58 @@
+[
+  {
+    "id": "site-picker",
+    "title": "Site Picker",
+    "version": "1.0.0",
+    "description": "Search and select SharePoint sites",
+    "url": "https://tenant.sharepoint.com/sites/central/AppAssets/site-picker/site-picker.js",
+    "requiredScopes": ["Sites.Read.All"],
+    "minimumRoles": ["User"],
+    "dataAccess": ["SharePoint"],
+    "dependencies": []
+  },
+  {
+    "id": "data-viewer",
+    "title": "Data Viewer",
+    "version": "1.0.0",
+    "description": "View SharePoint lists and Dataverse tables",
+    "url": "https://tenant.sharepoint.com/sites/central/AppAssets/data-viewer/data-viewer.js",
+    "requiredScopes": ["Sites.Read.All"],
+    "minimumRoles": ["User"],
+    "dataAccess": ["SharePoint", "Dataverse"],
+    "dependencies": []
+  },
+  {
+    "id": "hello-spa",
+    "title": "Hello SPA",
+    "version": "1.0.0",
+    "description": "Plain JS SPA with an in-memory router (no build, no libraries)",
+    "runtime": "js",
+    "hostMode": "mount",
+    "url": "https://tenant.sharepoint.com/sites/central/AppAssets/pluginsJS/hello-spa/index.js",
+    "minimumRoles": ["User"],
+    "dependencies": []
+  },
+  {
+    "id": "react-spa",
+    "title": "React SPA",
+    "version": "1.0.0",
+    "description": "JSX plugin built with esbuild, React loaded from a CDN",
+    "runtime": "js",
+    "hostMode": "mount",
+    "url": "https://tenant.sharepoint.com/sites/central/AppAssets/pluginsJS/react-spa/index.js",
+    "minimumRoles": ["User"],
+    "dependencies": []
+  },
+  {
+    "id": "notes-spa",
+    "title": "Notes SPA",
+    "version": "1.0.0",
+    "description": "Markdown notes using a CDN library, runs in a sandboxed iframe",
+    "runtime": "js",
+    "hostMode": "iframe",
+    "iframeHeight": 520,
+    "url": "https://static.example.com/launcher/pluginsJS/notes-spa/index.html",
+    "minimumRoles": ["User"],
+    "dependencies": []
+  }
+]

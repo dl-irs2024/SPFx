@@ -1,0 +1,12 @@
+{
+  "id": "hello-spa",
+  "title": "Hello SPA",
+  "version": "1.0.0",
+  "description": "Plain JS SPA with an in-memory router (no build, no libraries)",
+  "runtime": "js",
+  "hostMode": "mount",
+  "url": "https://tenant.sharepoint.com/sites/central/AppAssets/pluginsJS/hello-spa/index.js",
+  "requiredScopes": [],
+  "minimumRoles": ["User"],
+  "dependencies": []
+}

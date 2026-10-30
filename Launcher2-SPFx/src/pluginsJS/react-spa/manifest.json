@@ -1,0 +1,12 @@
+{
+  "id": "react-spa",
+  "title": "React SPA",
+  "version": "1.0.0",
+  "description": "JSX plugin built with esbuild, React loaded from a CDN",
+  "runtime": "js",
+  "hostMode": "mount",
+  "url": "https://tenant.sharepoint.com/sites/central/AppAssets/pluginsJS/react-spa/index.js",
+  "requiredScopes": [],
+  "minimumRoles": ["User"],
+  "dependencies": []
+}
